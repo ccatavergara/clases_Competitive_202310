@@ -1,6 +1,18 @@
-import sys
+# import sys
 
-stdin = sys.stdin
+# stdin = sys.stdin
+# cases = int(stdin.readline())
+
+
+from sys import stdin
+import io
+
+stdin = io.StringIO("""1 10 5 2.0
+1 5 10.0 2
+2 10 11 2
+3 5 1 6
+4 5.0 -1 6
+0""")
 cases = int(stdin.readline())
 
 for case in range(cases):
